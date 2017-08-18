@@ -1,4 +1,4 @@
-# Tic Tac Toe Game
+# Simon Game
 
 This was made for FreeCodeCamp's "Build a Simon Game" project for the Front End Development Certification.
 
