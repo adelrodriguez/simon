@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- META -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- STYLES -->
+
+		<!-- Normalize -->
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+		<!-- Semantic UI Checkbox -->
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/components/checkbox.min.css">
+		<!-- Semantic UI Icon -->
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/components/icon.min.css">
+		<!-- Semantic UI Button -->
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/components/button.min.css">
+		<!-- Google Font -->
+		<link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+
+		<link rel="stylesheet" type="text/css" href="simon.css">
+
+	<!-- SCRIPT -->
+		<!-- jQuery -->
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+		<script type="text/javascript" src="simon.js"></script>
+
+	<title>Simon</title>
+</head>
+<body>
+	<div class="container">
+		<div class="game-button" id="green"></div>
+		<div class="game-button" id="red"></div>
+		<div class="game-button" id="yellow"></div>
+		<div class="game-button" id="blue"></div>
+		<div id="center"></div>
+		<div id="display">
+			<div class="turn-counter">
+				<span id="turn">--</span>
+			</div>
+			<div class="ui toggle checkbox">
+				<input id="strict" type="checkbox">
+				<label>Strict</label>
+			</div>
+			<button id="play" class="massive inverted circular ui icon button">
+				<i class="play icon"></i>
+			</button>
+		</div>
+	</div>
+</body>
+</html>
